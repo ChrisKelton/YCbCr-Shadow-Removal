@@ -1,0 +1,11 @@
+Possible Things To Do:
+
+o Two Pass KMeans
+	- send image through again but this time only looking at the pixels that were masked in the first pass through.
+
+o Test on images with source of shadow in image, with knowing where objects are, so filter out any mask over objects.
+	- Mask will grab objects that are very dark.
+
+o Test on large GeoSpatial images.
+
+o Figure out what's wrong with multiprocessing implementation.
